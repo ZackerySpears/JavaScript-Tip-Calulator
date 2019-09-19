@@ -1,9 +1,10 @@
 body {
     background: linear-gradient(to right, orange, lightsalmon);
+    font-family: 'Roboto Mono', monospace;
 }
 
 #container {
-    background-color:white;
+    background-color:lightgray;
     height: 525px;
     width: 360px;
     margin: 100px auto; /* Give the element a margin of 100px on the top and bottom automaticallly calulate the left and right margin to center it horizointally */
@@ -41,7 +42,7 @@ p {
 button {
     display: block;
     border-radius: 20px;
-    margin:30px auto;
+    margin:40px auto;
     text-transform: uppercase;
     font-weight: bold;
     width: 200px;
@@ -56,4 +57,10 @@ button:hover {
 
 button:focus {
     outline: none;
+}
+
+#tipAmount {
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
 }
