@@ -13,7 +13,7 @@ body {
 
 h1 {
     background-color: lightsalmon;
-    color:red;
+    color:black;
     text-align: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -27,13 +27,33 @@ p {
     padding-left: 20px;
 }
 
-#billAmt {
+#billAmt, #serviceQual, #numPeople { /* Element with the ID of billAmt, serviceQual, and numPeople will both receive these styles */
     margin-left: 20px;
     font-size: 14px;
     border-radius: 10px;
 }
 
-#billAmt:focus {
+#billAmt:focus, #serviceQual:focus, #numPeople:focus {
     border: 3px solid lightsalmon;
+    outline: none;
+}
+
+button {
+    display: block;
+    border-radius: 20px;
+    margin:30px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    font-size: 20pt;
+    background-color:lightsalmon;
+}
+
+button:hover {
+    background-color: orange
+}
+
+button:focus {
     outline: none;
 }
