@@ -5,7 +5,7 @@ body {
 
 #container {
     background-color:lightgray;
-    height: 525px;
+    height: 650px;
     width: 360px;
     margin: 100px auto; /* Give the element a margin of 100px on the top and bottom automaticallly calulate the left and right margin to center it horizointally */
     border-radius: 20px; /* Round off the edges of the element*/
@@ -59,8 +59,9 @@ button:focus {
     outline: none;
 }
 
-#tipAmount {
+#tipAmount, #price, #perPrice {
     text-align: center;
-    font-size: 30pt;
+    font-size: 20pt;
     font-weight: bold;
 }
+
