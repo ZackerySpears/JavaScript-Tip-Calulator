@@ -15,7 +15,7 @@ function calculateTip() {
 
     var amount = Number(billAmount); ///Try to turn the value of billAmount into a number
 
-    if(isNaN(amount) || amount <=0) {
+    if(isNaN(amount) || amount <=0 || amount >= 10000) {
         //If amount can't be converted into a number or is less than or equal to 0 show an error 
         alert("Invalid input for bill amount.");
         return; //Return to exit the function if the bill amount is invalid
